@@ -1,0 +1,73 @@
+(base) C:\Python\CS>python 4asimple.py
+Z =  5973.916645008712
+E_mean =  -7.98392834374676
+C =  0.12832932745715198
+M_mean =  3.994642930994399
+X =  0.016042958064906188
+
+Z-analytical =  5973.916645008712
+E-analytical =  -7.983930140692504
+C-analytical =  0.12830063408180337
+M-analytical =  3.9946429309943987
+X-analytical =  0.016042958064907964
+
+
+(base) C:\Python\CS>python 4bising.py
+[[-1, 1], [-1, 1]]
+E_mean =  -7.98384
+M_mean =  3.99462
+C =  0.12901885440000171
+X =  15.9674759804
+
+
+(base) C:\Python\CS>python 4cnumba.py
+E_mean =  -495.982
+M_mean =  184.78172
+C =  552.8526104166607
+X =  17633.125234933337
+Elapsed time during the whole program in seconds: 4.0162005
+
+
+(base) C:\Python\CS>python 4dprob.py
+E_mean =  -559.399744
+M_mean =  182.318508
+C =  568.5402244330564
+X =  17405.289410500696
+sigma =  3274.791692734405
+
+
+(base) C:\Python\CS>python 4eMPI40.py
+ Rank:  0
+numprocs =  1
+C-peak =  2.6914631917793255
+index =  1
+Tc =  2.2573333333333334
+Elapsed time during the whole program in seconds: 504.17926270000004
+
+
+(base) C:\Python\CS>mpiexec -n 6 python 4eMPI40.py
+ Rank:  3
+numprocs =  6
+Elapsed time during the whole program in seconds: 643.8279483
+ Rank:  2
+numprocs =  6
+Elapsed time during the whole program in seconds: 643.8273721
+ Rank:  1
+numprocs =  6
+Elapsed time during the whole program in seconds: 644.3553897
+ Rank:  5
+numprocs =  6
+Elapsed time during the whole program in seconds: 644.4687457
+ Rank:  4
+numprocs =  6
+Elapsed time during the whole program in seconds: 644.9831661
+ Rank:  0
+numprocs =  6
+C-peak =  2.4988422621983175
+index =  2
+Tc =  2.2666666666666666
+Elapsed time during the whole program in seconds: 644.9789031
+
+
+(base) C:\Python\CS>python 4fcrit.py
+a =  0.6896921017403772 Tc =  2.269602855867914
